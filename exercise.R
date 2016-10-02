@@ -38,7 +38,7 @@ save_data <- function(table){
     # setwd(local_working_dir)
     
     data_filename <- "refine_clean.csv"
-    write.csv(table, file = data_filename, quote = FALSE, row.names = FALSE)
+    write.csv(table, file = data_filename, quote = TRUE, row.names = FALSE)
     
   }, error = function(e){
     print("Unfortunately the data couldn't be loaded: ", e)
