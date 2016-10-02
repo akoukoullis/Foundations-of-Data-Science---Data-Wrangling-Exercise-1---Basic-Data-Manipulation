@@ -9,8 +9,8 @@ load_data <- function(){
     
     # Set the full path of your RStudio working directory to the "local_working_dir" variable if necessary,
     # and uncomment the next two lines
-    local_working_dir <- ""
-    setwd(local_working_dir)
+    # local_working_dir <- ""
+    # setwd(local_working_dir)
     
     data_filename <- "refine_original.csv"
     table <- tbl_df(read.csv(data_filename))
@@ -34,8 +34,8 @@ save_data <- function(table){
     
     # Set the full path to your RStudio working directory to the "local_working_dir" variable if necessary,
     # and uncomment the next two lines
-    local_working_dir <- ""
-    setwd(local_working_dir)
+    # local_working_dir <- ""
+    # setwd(local_working_dir)
     
     data_filename <- "refine_clean.csv"
     write.csv(table, file = data_filename, quote = FALSE, row.names = FALSE)
