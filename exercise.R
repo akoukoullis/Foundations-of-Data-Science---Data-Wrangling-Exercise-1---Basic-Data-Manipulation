@@ -32,9 +32,9 @@ save_data <- function(table){
   
   tryCatch({
     
-    # Set the full path to your working directory to the "local_working_dir" variable if necessary,
+    # Set the full path to your RStudio working directory to the "local_working_dir" variable if necessary,
     # and uncomment the next two lines
-    local_working_dir <- "/Users/akoukoullis/Documents/Springboard\ Foundations\ of\ Data\ Science/Exercises/3\ DATA\ WRANGLING/Data\ Wrangling\ Exercise\ 1\ -\ Basic\ Data\ Manipulation"
+    local_working_dir <- ""
     setwd(local_working_dir)
     
     data_filename <- "refine_clean.csv"
